@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background-image: url(fondo.jpg);
+}
+/*Aqui empieza la caja principal*/
+.Caja_Principal{
+    /*position: relative;
+    left: 30%;*/
+    margin:0 auto;
+    max-width:30%;
+}
+/*Aqui empieza el fondo formulario*/
+.Header_Formulario{   
+height: 430px;
+width: 400px;
+/*background-color: rgb(66, 65, 65);*/
+text-align: center;
+padding-top: 20px;
+/*border-radius: 10px;
+box-shadow: 5px 5px 10px black ;
+border: 3px solid black;*/
+
+}
+/*Elementos de Iniciar sesion*/
+#Titulo{
+    color: white;
+    text-transform: uppercase;
+    padding: 20px;
+    text-align: center;
+    font-size: 35px;
+    text-shadow: 0px 0px 8px black;
+}
+/*Aqui termina los elementos de iniciar sesion*/
+
+/*Elementos de Formulario*/
+form{
+    width: 95%;
+    border-radius: 10px;
+    padding :45px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: rgba(105, 104, 104, 0.4);
+    box-shadow: 5px 5px 10px black ;
+    border: 2px solid black;
+    
+}
+/*Aqui termina Elementos de Formulario*/
+
+/*Aqui empieza los elemetos de label*/
+.Mod_Label{
+    font-size: 20px;
+    color:white;
+    text-shadow: 0px 0px 5px black;
+    display: block;
+    padding-bottom: 2px;
+}
+/*Aqui termina los elemetos de label*/
+
+/*Aqui empieza los elemetos de input*/
+.Cuadro{
+width: 100%;
+background:  white;
+padding: 10px;
+border-radius: 8px;
+margin-bottom: 20px;
+border: 1.5px solid black;
+font-size: 14px;
+}
+/*Aqui termina los elemetos de input*/
+
+
+/*Aqui empieza los elemetos de input (Boton Entrar)*/
+.Boton{
+ width: 100%;
+ background: rgb(48, 48, 150);
+ border: none;
+ padding: 8px;
+ color: white;
+ font-size: 15px;
+ cursor: pointer;
+}
+
+.Boton:hover{
+    transition: all 1s;
+    background: green;
+    cursor: pointer;
+    border-radius: 8px;
+}
+/*Aqui termina los elemetos de input (Boton Entrar)*/
+
+/*Aqui empieza los elemetos de H4 (BIENVENIDOS)*/
+#bienvenidos{
+    font-size: 25px;
+    margin-bottom: 15px;
+    color:white;
+    text-shadow: 0px 0px 8px black;
+    text-transform: uppercase;
+}
+
+#Mensaje_Registro{
+    padding-top: 15px;
+    text-align: center;
+    font-size: 20px;
+}
+#Vinculo_Registar{
+    color: black;
+    text-decoration: none;
+}
+#Vinculo_Registar:hover{
+    text-decoration: underline;
+}
+
+
+/*FOOTER*/
+#Footer{
+width: 100%;
+font-size: 16px;
+color: black;
+text-align: center;
+}
