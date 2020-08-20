@@ -6,4 +6,5 @@ Este es un inicio de sesion con html y css (ignoren los achivos de js, estaba pr
 
 Link del sitio web: https://alane-tc.github.io/InicioSesion/
 
+pd: No es responsive
 
